@@ -1,1 +1,260 @@
-/* место для вашего кода */
+.header {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 293px;
+  list-style: circle;
+}
+
+.header__menu {
+  display: flex;
+  margin-left: 50px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.header__links-list-item {
+  display: flex;
+  gap: 31.48px;
+  list-style: circle;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__logo-image {
+  position: absolute;
+  margin-left: 478px;
+  width: 139px;
+  height: 105px;
+}
+
+.address {
+  margin-right: 50px;
+  width: 240px;
+  line-height: 24px;
+}
+
+/* обложка */
+
+.cover {
+  position: relative;
+  display: grid;
+  height: 757px;
+  background-image: url("../images/cover.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.cover__title {
+  position:relative;
+}
+
+.overlay {
+  position: absolute;
+  background-color: black;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+}
+
+.aligned-text_left {
+  display: block;
+  position: absolute;
+  text-align:left;
+  margin-left:50px;
+  margin-top:165px;
+}
+
+.aligned-text_center {
+  display: block;
+  position:absolute;
+  text-align:center;
+  margin-left: 380.5px;
+  margin-top: 300px;
+}
+
+.aligned-text_right {
+  display: block;
+  position:absolute;
+  text-align:right;
+  margin-left: 663px;
+  margin-top: 435px;
+}
+
+.cover__description-text {
+  display:block;
+  position: absolute;
+  left:50px;
+  bottom: 61px;
+  width: 637px;
+  word-spacing: 18.5px;
+}
+
+.bet-button {
+  display: grid;
+  position: absolute;
+  background: transparent;
+  box-sizing: border-box;
+  width: 256px;
+  height: 51px;
+  left: 794px;
+  top: 656px;
+  border: 1px solid #FFFFFF;
+  justify-content: center;
+  align-items: center;
+}
+
+/* лоты */
+
+.lots {
+  height: 723px;
+  margin: 180px 24px 0px 24px;
+}
+
+.lots__heading{
+  padding-left: 40px;
+}
+
+.lots__card-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin-top: 27px;
+}
+
+.lots__card-list-item-1 {
+  position: relative;
+  width: 334px;
+  height: 596px;
+  background-image: url("../images/card-lot-01.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.lots__card-list-item-2 {
+  position: relative;
+  width: 334px;
+  height: 596px;
+  background-image: url("../images/card-lot-02.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.lots__card-list-item-3 {
+  position: relative;
+  width: 334px;
+  height: 596px;
+  background-image: url("../images/card-lot-03.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.card__title {
+  position: relative;
+  display: flex;
+  width: 254px;
+  margin: 48px 0 0 40px;
+}
+
+.card__text {
+  position: absolute;
+  bottom: 48px;
+  width: 254px;
+  margin-left: 40px;
+  align-items: flex-end;
+}
+
+.lots__look-more-link {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+/* об аукционе*/
+
+.about {
+  position: relative;
+  height: 595px;
+  margin: 120px 24px 0px 24px; 
+}
+
+.about-logo-circle {
+  position: absolute;
+  top: 35px;
+  left: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #000000;
+}
+
+.about-logo {
+  width: 148px;
+  height: 114px;
+}
+
+.about__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  width: 693px;
+  height: 462px;
+  top: 133px;
+  right: 0px;
+}
+
+.about__text {
+  height: 312px;
+  width: 689px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* подвал */
+
+.footer {
+  position: relative;
+  height: 180px;
+  margin-top: 180px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.footer-address {
+  width: 265px;
+  line-height: 24px;
+}
+
+.footer__menu {
+  display:absolute;
+  padding: 0;
+  margin-top: 0;
+  right: 467px;
+}
+
+.footer__menu-list {
+  list-style: none;
+}
+
+.footer__menu-link {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__social-list {
+  display: flex;
+  width: 240px;
+  justify-content: space-between;
+}
+
+.footer__social-icon {
+  height: 48px;
+}
