@@ -1,1 +1,1 @@
-https://github.com/kostik-chvostik/ono-tebe-nado-fd#
+https://github.com/kostik-chvostik/ono-tebe-nado-fd
