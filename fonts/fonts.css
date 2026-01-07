@@ -17,94 +17,94 @@
 }
 
 .font-header {
+  color: #000000;
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  color: #000000;
+  font-style: normal;
   text-underline-position: under;
 }
 
 .font-cover__title {
+  color: #FFFFFF;
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 100px;
+  font-style: normal;
   line-height: 115%;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: #FFFFFF;
   text-transform:uppercase;
 }
 
 .font-cover__description {
+  color: #FFFFFF;
   font-family: 'Raleway';
-  font-style:normal;
   font-weight: 400;
   font-size: 22px;
+  font-style:normal;
   line-height: 28px;
-  text-transform: uppercase;
-  color: #FFFFFF;
   letter-spacing: normal;
+  text-transform: uppercase;
 }
 
 .font-lots__heading,
 .font-about__title {
+  color: #000000;
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
+  font-style: normal;
   line-height: 47px;
   text-transform: uppercase;
-  color: #000000;
 }
 
 .font-card__title {
+  color: #FFFFFF;
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 22px;
+  font-style: normal;
   line-height: 120%;
   text-decoration-line: underline;
-  text-transform: uppercase;
-  color: #FFFFFF;
   text-underline-position: under;
+  text-transform: uppercase;
 }
 
 .font-card__text {
+  color: #FFFFFF;
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
+  font-style: normal;
   line-height: 120%;
-  color: #FFFFFF;
 }
 
 .font-lots__look-more-link {
+  color: #000000;
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
+  font-style: normal;
   line-height: 23px;
-  color: #000000;
 }
 
 .font-about__text {
+  color: #000000;
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
+  font-style: normal;
   line-height: 24px;
-  color: #000000;
 }
 
 .font-footer {
+  color: #000000;
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
+  font-style: normal;
   line-height: 24px;
-  color: #000000;
   text-underline-position: under;
 }
 

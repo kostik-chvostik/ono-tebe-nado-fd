@@ -1,5 +1,5 @@
 .header {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   height: 293px;
@@ -9,8 +9,8 @@
 .header__menu {
   display: flex;
   margin-left: 50px;
-  line-height: 21px;
   color: #000000;
+  line-height: 21px;
 }
 
 .header__links-list-item {
@@ -25,14 +25,14 @@
 
 .header__logo-image {
   position: absolute;
-  margin-left: 478px;
   width: 139px;
   height: 105px;
+  margin-left: 478px;
 }
 
 .address {
-  margin-right: 50px;
   width: 240px;
+  margin-right: 50px;
   line-height: 24px;
 }
 
@@ -43,67 +43,67 @@
   display: grid;
   height: 757px;
   background-image: url("../images/cover.jpg");
-  background-size: cover;
   background-position: top;
+  background-size: cover;
 }
 
 .cover__title {
-  position:relative;
+  position: relative;
 }
 
 .overlay {
   position: absolute;
-  background-color: black;
-  opacity: 0.6;
   width: 100%;
   height: 100%;
+  opacity: 0.6;
+  background-color: black;
 }
 
 .aligned-text_left {
-  display: block;
   position: absolute;
-  text-align:left;
-  margin-left:50px;
-  margin-top:165px;
+  display: block;
+  margin-top: 165px;
+  margin-left: 50px;
+  text-align: left;
 }
 
 .aligned-text_center {
+  position: absolute;
   display: block;
-  position:absolute;
-  text-align:center;
-  margin-left: 380.5px;
   margin-top: 300px;
+  margin-left: 380.5px;
+  text-align: center;
 }
 
 .aligned-text_right {
+  position: absolute;
   display: block;
-  position:absolute;
-  text-align:right;
-  margin-left: 663px;
   margin-top: 435px;
+  margin-left: 663px;
+  text-align: right;
 }
 
 .cover__description-text {
-  display:block;
   position: absolute;
-  left:50px;
   bottom: 61px;
+  left: 50px;
+  display: block;
   width: 637px;
   word-spacing: 18.5px;
 }
 
 .bet-button {
-  display: grid;
   position: absolute;
-  background: transparent;
+  top: 656px;
+  left: 794px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
   width: 256px;
   height: 51px;
-  left: 794px;
-  top: 656px;
-  border: 1px solid #FFFFFF;
-  justify-content: center;
-  align-items: center;
+  border: 1px solid #ffffff;
+  background: transparent;
 }
 
 /* лоты */
@@ -113,15 +113,15 @@
   margin: 180px 24px 0px 24px;
 }
 
-.lots__heading{
+.lots__heading {
   padding-left: 40px;
 }
 
 .lots__card-list {
   display: flex;
-  list-style: none;
   justify-content: space-between;
   margin-top: 27px;
+  list-style: none;
 }
 
 .lots__card-list-item-1 {
@@ -129,8 +129,8 @@
   width: 334px;
   height: 596px;
   background-image: url("../images/card-lot-01.jpg");
-  background-size: cover;
   background-position: top;
+  background-size: cover;
 }
 
 .lots__card-list-item-2 {
@@ -138,8 +138,8 @@
   width: 334px;
   height: 596px;
   background-image: url("../images/card-lot-02.jpg");
-  background-size: cover;
   background-position: top;
+  background-size: cover;
 }
 
 .lots__card-list-item-3 {
@@ -147,8 +147,8 @@
   width: 334px;
   height: 596px;
   background-image: url("../images/card-lot-03.jpg");
-  background-size: cover;
   background-position: top;
+  background-size: cover;
 }
 
 .card__title {
@@ -161,9 +161,9 @@
 .card__text {
   position: absolute;
   bottom: 48px;
+  align-items: flex-end;
   width: 254px;
   margin-left: 40px;
-  align-items: flex-end;
 }
 
 .lots__look-more-link {
@@ -177,7 +177,7 @@
 .about {
   position: relative;
   height: 595px;
-  margin: 120px 24px 0px 24px; 
+  margin: 120px 24px 0px 24px;
 }
 
 .about-logo-circle {
@@ -199,32 +199,32 @@
 }
 
 .about__title {
+  position: absolute;
+  top: 133px;
+  right: 0px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: absolute;
   width: 693px;
   height: 462px;
-  top: 133px;
-  right: 0px;
 }
 
 .about__text {
-  height: 312px;
-  width: 689px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 689px;
+  height: 312px;
 }
 
 /* подвал */
 
 .footer {
   position: relative;
-  height: 180px;
-  margin-top: 180px;
   display: flex;
   justify-content: space-between;
+  height: 180px;
+  margin-top: 180px;
   padding: 0 50px;
 }
 
@@ -234,10 +234,10 @@
 }
 
 .footer__menu {
-  display:absolute;
-  padding: 0;
-  margin-top: 0;
   right: 467px;
+  display: absolute;
+  margin-top: 0;
+  padding: 0;
 }
 
 .footer__menu-list {
@@ -251,8 +251,8 @@
 
 .footer__social-list {
   display: flex;
-  width: 240px;
   justify-content: space-between;
+  width: 240px;
 }
 
 .footer__social-icon {
