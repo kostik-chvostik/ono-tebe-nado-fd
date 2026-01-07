@@ -13,7 +13,7 @@
   line-height: 21px;
 }
 
-.header__links-list-item {
+.header__links-list {
   display: flex;
   gap: 31.48px;
   list-style: circle;
@@ -33,6 +33,7 @@
 .address {
   width: 240px;
   margin-right: 50px;
+  font-style: normal;
   line-height: 24px;
 }
 
@@ -230,12 +231,13 @@
 
 .footer-address {
   width: 265px;
+  font-style: normal;
   line-height: 24px;
 }
 
 .footer__menu {
+  position: absolute;
   right: 467px;
-  display: absolute;
   margin-top: 0;
   padding: 0;
 }
