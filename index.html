@@ -11,7 +11,7 @@
   </head>
   <body>
     <header class="header font-header">
-      <nav class="header__menu">
+      <nav>
         <ul class="header__links-list">
           <li class="header__links-list-item_no-bullit">
             <a>главная</a>
@@ -25,9 +25,9 @@
         </ul>
       </nav>
       <a class="header__logo-image">
-        <img class="header-logo" src="./images/logo-black.svg" alt="логотип проекта">
+        <img src="./images/logo-black.svg" alt="логотип проекта">
       </a>
-      <address class="address">
+      <address class="address font-address">
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263- 265, Амстердам</p>
@@ -41,46 +41,52 @@
           <span class="aligned-text_center">тебе</span>
           <span class="aligned-text_right">надо</span>
         </h1>
-        <div>
+        <div class="cover__description">
           <p class="cover__description-text font-cover__description">
-            аукцион вещей, в которые никто не верил
+            Аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button font-cover__description">
+          <button type="button" class="bet-button font-cover__description">
             сделать ставку
           </button>
         </div>
       </section> 
       <section class="lots">
-        <p class="lots__heading font-lots__heading">
+        <h1 class="lots__heading font-lots__heading">
           Лоты
-        </p>
+        </h1>
         <ul class="lots__card-list">
-          <li class="lots__card-list-item-1">
+          <li class="lots__card-list-item card_type_film">
             <div class="overlay"></div>
-            <a href="#0" class="card__title font-card__title">
-              Фильм режиссёра, который бросил киношколу
+            <a href="#0" class="card-link font-card-link">
+              <h2 class="font-card__title">
+                Фильм режиссёра, который бросил киношколу
+              </h2>
+              <p class="font-card__text">
+                Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+              </p>
             </a>
-            <article class="card__text font-card__text">
-              Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-            </article>
           </li> 
-          <li class="lots__card-list-item-2">
+          <li class="lots__card-list-item card_type_book">
             <div class="overlay"></div>
-            <a href="#0" class="card__title font-card__title">
-              Книга, где описан один скучный день из жизни рекламного агента
+            <a href="#0" class="card-link font-card-link">
+              <h2 class="font-card__title">
+                Книга, где описан один скучный день из жизни рекламного агента
+              </h2>
+              <p class="font-card__text">
+                Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+              </p>
             </a>
-            <article class="card__text font-card__text">
-              Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
-            </article>
           </li>
-          <li class="lots__card-list-item-3">
+          <li class="lots__card-list-item card_type_picture">
             <div class="overlay"></div>
-            <a href="#0" class="card__title font-card__title">
-              Картина, которую повторит даже 5-летний сын маминой подруги
+            <a href="#0" class="card-link font-card-link">
+              <h2 class="font-card__title">
+                Картина, которую повторит даже 5-летний сын маминой подруги
+              </h2>
+              <p class="font-card__text">
+                Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
+              </p>
             </a>
-            <article class="card__text font-card__text">
-              Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
-            </article>
           </li>
         </ul>
         <a href="#0" class="lots__look-more-link font-lots__look-more-link">
@@ -94,9 +100,9 @@
           </div>
         </div>
         <div class="about__title">
-          <p class="font-about__title">
+          <h1 class="font-about__title">
             об аукционе
-          </p>
+          </h1>
           <div class="about__text">
             <p class="font-about__text">
               Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
@@ -109,10 +115,10 @@
       </section>
     </main>
     <footer class="footer font-footer ">
-      <address class="footer-address">
+      <address class="address font-address">
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <p>наб. Принсенграхт 263- 265, Амстердам</p>
+        <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
