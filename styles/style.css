@@ -48,10 +48,10 @@
 .cover__title {
   position: relative;
   display: grid;
-  grid-template-columns: 281px 339px 290px;
+  grid-template-columns: 281px 339px 285px;
   grid-template-rows: 115px 115px 115px;
   row-gap: 20px;
-  column-gap: 45px;
+  column-gap: 50px;
   padding: 165px 50px 106px 50px;
 }
 
