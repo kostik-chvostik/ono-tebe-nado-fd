@@ -48,7 +48,7 @@
 .cover__title {
   position: relative;
   display: grid;
-  grid-template-columns: 286px 339px 387px;
+  grid-template-columns: 281px 336px 383px;
   grid-template-rows: 115px 115px 115px;
   row-gap: 20px;
   column-gap: 45px;
